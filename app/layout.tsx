@@ -14,7 +14,14 @@ export const metadata: Metadata = {
     icon: "/icons/tp-192.png",
     apple: "/icons/tp-192.png",
   },
-    generator: 'v0.dev'
+  generator: "v0.dev",
+
+  // ✅ Google indexing setup
+  robots: "index, follow",
+  verification: {
+    google: "w3rr99CFymPN1bP" // <-- yaha apna Google Search Console ka verification code paste karo
+  },
+  keywords: ["TPyaar", "AI chatbot", "colorful AI companion"], // optional SEO boost
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
