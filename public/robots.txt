@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tpyaar-8np0.onrender.com/sitemap.xml
